@@ -18,12 +18,11 @@ body {
     height: 150px;
 }
 
-.nav-tabs {
-    position: relative;
-    height: 50px;
-    font-weight: lighter;
-    z-index: 0;
-    bottom: 60px;
+.nav {
+    background-color: blanchedalmond;
+    border-radius: 0px 0px 15px 15px;
+    padding: 5px;
+    height: 70px;
 }
 
 .nav-link {
@@ -33,6 +32,12 @@ body {
 #about {
     background: lemonchiffon;
     height: 200px;
+}
+
+#showcase {
+    border-style: dashed;
+    border-width: 5px;
+    border-color: moccasin;
 }
 
 #carousel-highlights {
