@@ -11,25 +11,15 @@ body {
 }
 
 #navHeader {
-    background-image: url("../images/Skyline.jpg");
+
+    background-color:rebeccapurple;
     background-size: cover;
-    position: relative;
-    height: 120px;
-}
-
-.nav {
-    background-color: blanchedalmond;
-    border-radius: 0px 0px 15px 15px;
-    padding: 5px;
-    height: 70px;
-}
-
-.nav-tabs:hover {
-    color: black;
+    position: sticky;
 }
 
 .nav-link {
-    color: green;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 
 #about {
@@ -37,15 +27,24 @@ body {
     height: 200px;
 }
 
+#portfolio-head {
+    font-size: 50px;
+}
+
 #showcase {
     border-style: dashed;
     border-width: 5px;
     border-color: moccasin;
+    background-color: limegreen;
 }
 
 #carousel-highlights {
     position: relative;
     font-size: 16px;
     width: 70%;
-    left: 100px;
+
+}
+
+#contact {
+    background-color: honeydew;
 }
