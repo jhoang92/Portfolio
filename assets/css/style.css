@@ -10,12 +10,11 @@ body {
     background: lightblue;
 }
 
-.jumbotron {
+#navHeader {
     background-image: url("../images/Skyline.jpg");
     background-size: cover;
-    margin: auto auto 10px auto;
     position: relative;
-    height: 150px;
+    height: 120px;
 }
 
 .nav {
@@ -25,8 +24,12 @@ body {
     height: 70px;
 }
 
+.nav-tabs:hover {
+    color: black;
+}
+
 .nav-link {
-    color: blue;
+    color: green;
 }
 
 #about {
