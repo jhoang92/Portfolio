@@ -7,13 +7,11 @@ body {
     font-size: 30px;
     line-height: 32px;
     font-weight: bold;
-    background: lightblue;
 }
 
 #navHeader {
 
-    background-color:rebeccapurple;
-    background-size: cover;
+    background-color: dodgerblue;
     position: sticky;
 }
 
@@ -23,19 +21,45 @@ body {
 }
 
 #about {
-    background: lemonchiffon;
-    height: 200px;
+    background: khaki;
+    height: 500px;
+}
+
+#about-container {
+    border-color:black;
+    border-width: 5px;
+    border-style: dotted;
+    position: relative;
+    height: 500px;
+    width: auto;
+    padding: 100px;
+    text-align: center;  
+}
+
+#profile {
+    border-radius: 20px;
+    transform: rotate(90deg);
+    position: relative;
 }
 
 #portfolio-head {
     font-size: 50px;
 }
 
+#aboutme-text {
+    position: relative;
+    height: 100px;
+}
+
+#about-text {
+    position: inherit;
+    height: 100px;
+}
+
 #showcase {
     border-style: dashed;
     border-width: 5px;
     border-color: moccasin;
-    background-color: limegreen;
 }
 
 #carousel-highlights {
