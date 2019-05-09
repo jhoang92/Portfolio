@@ -98,25 +98,78 @@
     <section class="contact" id="contact">
         <div class="container">
             <form action="mailto:jhhoang992@gmail.com" method="post" enctype="text/plain">
-                <h2>name</h2>
-                <input type="text" name="name" placeholder="Your Name">
-                <h2>e-mail</h2>
-                <input type="text" name="email" placeholder="Your E-mail">
-                <h2>messages</h2>
-                <textarea rows="5" cols="50"
-                placeholder="Comments"></textarea>
+                <div class="form-row">
+                    <div class="col">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="ex. JohnDoe">
+                    </div>
 
-                <h2><button type="reset">Reset</button>
-                    </h2>
-                
-                <h2><button type="submit">Submit</button>
-                    </h2>
+                    <div class="col">
+                        <label for="email">E-Mail address</label>
+                        <input type="email" class="form-control" id="email" placeholder="johndoe@email.com">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="textarea">Enter text.</label>
+                    <textarea class="form-control" id="text-area" rows="5" cols="50" placeholder="Comments"></textarea>
+                    
+                    <button type="reset" class="btn btn-danger">Reset</button>
+                    
+                    
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
             </form>
         </div>
     </section>
 
+    <section class="footer" id="footer">
+        <div class="container">
+            <div class="row">
 
-    <footer class="text-center fixed">John Hoang 2018</footer>
+                <div class="col-8 col-4 footer-text-box">
+                    <h2 class="footer-text text-center text-uppercase">footer</h2>
+                    <h2 class="text-left">Thank you for viewing my page!</h2>
+                </div>
+
+
+                <div class="col-4 col-4 footer-item-box" id="footer-item-box">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-12">
+                                <h1 class="footer-text text-center text-uppercase">find me
+
+                                </h1>
+                            </div>
+
+                            <div class="col-4">
+                                <a class="footer-item" id="footer-item" href="https://www.github.com/jhoang92">
+
+                                    <img class="img-fluid" src="assets/images/github.png">
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a class="footer-item" id="footer-item" href="https://www.github.com/jhoang92">
+
+                                    <img class="img-fluid" src="assets/images/linkedin.png">
+                                </a>
+                            </div>
+                            <div class="col-4">
+                                <a class="footer-item" id="footer-item" href="https://www.github.com/jhoang92">
+
+                                    <img class="img-fluid" src="assets/images/stacked.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="copyright text-center fixed">John Hoang 2018</div>
     <!-- This is the end of the container-fluid -->
 
 </body>

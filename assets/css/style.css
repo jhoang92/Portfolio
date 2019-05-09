@@ -11,7 +11,7 @@ body {
 
 #nav-header {
 
-    background-color: dodgerblue;
+    background-color: #762af0;
     position: sticky;
 }
 
@@ -20,9 +20,10 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 
-#about {
-    background: khaki;
-    height: 500px;
+.about {
+    background: #be0a0aec;
+    height: 100%;
+    padding: 100px;
 }
 
 #about-container {
@@ -30,7 +31,7 @@ body {
     border-width: 5px;
     border-style: dotted;
     position: relative;
-    height: 500px;
+    height: 100%;
     width: auto;
     padding: 100px;
     text-align: center;  
@@ -59,6 +60,15 @@ body {
     background-color: aquamarine;
 }
 
+.portfolio-item {
+    margin: 1rem;
+}
+
+#portfolio {
+    background-color: rgba(255, 221, 30, 0.925);
+    padding: 6rem;
+}
+
 .d-flex {
     display: flex!important;
 }
@@ -74,4 +84,40 @@ body {
 
 #contact {
     background-color: honeydew;
+    padding: 6rem;
+}
+
+.footer {
+    background-color: dodgerblue;
+    padding: 6rem;
+}
+
+.footer-text {
+    font-size: 3rem;
+    color: white;
+}
+
+.copyright {
+    background-color: navy;
+    color: white;
+}
+
+.footer-text-box {
+    border-color: black;
+    border-width: 1rem;
+    border-style: double;
+    padding: 6rem;
+}
+
+.footer-item-box {
+    border-color: salmon;
+    border-width: 1rem;
+    border-style: double;
+    padding: 2rem;
+}
+
+.footer-item {
+    border-color: black;
+    border-width: 2rem;
+    border-style: dotted;  
 }
