@@ -9,10 +9,12 @@ body {
     font-weight: bold;
 }
 
-#nav-header {
-
+.navbar { 
     background-color: #762af0;
-    position: sticky;
+}
+
+#nav-header {
+    background-color: lawngreen;
 }
 
 .nav-link {

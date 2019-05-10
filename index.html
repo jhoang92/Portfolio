@@ -13,20 +13,29 @@
 </head>
 
 <body>
-    <!--nav header -->
-    <ul class="nav nav-tabs justify-content-end" id="nav-header">
 
-        <li class="nav-item active">
-            <a class="nav-link" href="#about">about</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-        </li>
-    </ul>
-    <!-- End of the container -->
+    <!--nav header -->
+    <nav class="navbar fixed-top navbar-light">
+        <div class="container">
+            <span class="navbar-brand text-uppercase">
+                made with bootstrap
+            </span>
+
+            <ul class="navbar-nav nav-tabs ml-auto" id="nav-header">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">about</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!-- End of the nav -->
 
     <!--about page-->
     <section class="about" id="about">
@@ -94,7 +103,9 @@
             </div>
         </div>
     </section>
+    <!--end of portfolio-->
 
+    <!--form-->
     <section class="contact" id="contact">
         <div class="container">
             <form action="mailto:jhhoang992@gmail.com" method="post" enctype="text/plain">
@@ -113,16 +124,18 @@
                 <div class="form-group">
                     <label for="textarea">Enter text.</label>
                     <textarea class="form-control" id="text-area" rows="5" cols="50" placeholder="Comments"></textarea>
-                    
+
                     <button type="reset" class="btn btn-danger">Reset</button>
-                    
-                    
+
+
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </div>
             </form>
         </div>
     </section>
+    <!--end form-->
 
+    <!--footer-->
     <section class="footer" id="footer">
         <div class="container">
             <div class="row">
@@ -166,11 +179,10 @@
                 </div>
             </div>
         </div>
-
     </section>
+    <!--end footer -->
 
     <div class="copyright text-center fixed">John Hoang 2018</div>
-    <!-- This is the end of the container-fluid -->
 
 </body>
 
