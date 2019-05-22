@@ -9,25 +9,22 @@ body {
     font-weight: bold;
 }
 
-.navbar { 
-    background-color:rgb(35, 102, 170);
-}
-
-#nav-header {
-    background-color: rgb(35, 102, 170);
-
-}
 
 .nav-link {
     color: ghostwhite;
     font-weight: bold;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 .about {
     background: hsl(46, 100%, 61%);
     color: ghostwhite;
-    height: 100%;
-    padding: 100px;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
 }
 
 #about-container {
@@ -35,16 +32,24 @@ body {
     border-width: 5px;
     border-style: dotted;
     position: relative;
-    height: 100%;
     width: auto;
-    padding: 100px;
+    padding-top: 10rem;
+    padding-bottom: 6rem;
     text-align: center;  
+}
+
+.main-header {
+    height: 56.25%;
+    position: relative;
+    width: auto;
 }
 
 #profile {
     border-radius: 20px;
     transform: rotate(90deg);
     position: relative;
+    height: 10rem;
+    width: auto;
 }
 
 .row {
@@ -85,6 +90,17 @@ body {
     height: 100%!important;
 }
 
+.ml-auto .mx-auto {
+    margin-left: auto!important;
+}
+
+.mr-auto .mx-auto {
+    margin-right: auto!important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem!important;
+}
 
 #contact {
     background-color: hsl(46, 100%, 61%);
@@ -123,4 +139,10 @@ body {
 
 .container {
     padding: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .about {
+     
+    }
 }
